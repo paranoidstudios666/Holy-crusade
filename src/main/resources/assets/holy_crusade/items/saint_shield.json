@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "holy_crusade:item/saint_shield"
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "holy_crusade:item/saint_shield_blocking"
+    },
+    "property": "minecraft:using_item"
+  }
+}

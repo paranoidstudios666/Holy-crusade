@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "holy_crusade:block/demon_stone_sab"
+    },
+    "type=top": {
+      "model": "holy_crusade:block/demon_stone_sab_top"
+    },
+    "type=double": {
+      "model": "holy_crusade:block/demon_stone_sab_full"
+    }
+  }
+}

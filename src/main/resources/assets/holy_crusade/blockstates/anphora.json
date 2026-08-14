@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "holy_crusade:block/anphora"
+    },
+    "facing=east": {
+      "model": "holy_crusade:block/anphora",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "holy_crusade:block/anphora",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "holy_crusade:block/anphora",
+      "y": 270
+    }
+  }
+}

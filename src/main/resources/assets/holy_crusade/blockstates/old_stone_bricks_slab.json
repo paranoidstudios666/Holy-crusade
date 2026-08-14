@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "holy_crusade:block/old_stone_bricks_slab"
+    },
+    "type=top": {
+      "model": "holy_crusade:block/old_stone_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "holy_crusade:block/old_stone_bricks_slab_full"
+    }
+  }
+}

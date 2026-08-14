@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "holy_crusade:block/old_chest"
+    },
+    "facing=east": {
+      "model": "holy_crusade:block/old_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "holy_crusade:block/old_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "holy_crusade:block/old_chest",
+      "y": 270
+    }
+  }
+}
