@@ -1,0 +1,3114 @@
+{
+  "mod_elements": [
+    {
+      "name": "HolyCrusade",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_crusade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "VeracruxFragment",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "veracrux_fragment",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/veracrux_fragment.json",
+          "src/main/java/net/mcreator/holycrusade/item/VeracruxFragmentItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/veracrux_fragment.json"
+        ]
+      }
+    },
+    {
+      "name": "WinePlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/WinePlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Wine",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/wine.json",
+          "src/main/java/net/mcreator/holycrusade/item/WineItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/wine.json"
+        ]
+      }
+    },
+    {
+      "name": "CommunionWafer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "communion_wafer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/CommunionWaferItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/communion_wafer.json",
+          "src/main/resources/assets/holy_crusade/items/communion_wafer.json"
+        ]
+      }
+    },
+    {
+      "name": "TemplarSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/TemplarSwordLivingEntityIsHitWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TemplarSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/templar_sword.json",
+          "src/main/java/net/mcreator/holycrusade/item/TemplarSwordItem.java",
+          "src/main/resources/assets/holy_crusade/items/templar_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "HellPepperPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell_pepper_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/HellPepperPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HellPepper",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell_pepper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/HellPepperItem.java",
+          "src/main/resources/assets/holy_crusade/items/hell_pepper.json",
+          "src/main/resources/assets/holy_crusade/models/item/hell_pepper.json"
+        ]
+      }
+    },
+    {
+      "name": "ChaliceOfChristPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalice_of_christ_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/ChaliceOfChristPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ChaliceOfChrist",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chalice_of_christ",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/chalice_of_christ.json",
+          "src/main/java/net/mcreator/holycrusade/item/ChaliceOfChristItem.java",
+          "src/main/resources/assets/holy_crusade/items/chalice_of_christ.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldCrossLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/GoldCrossLivingEntityIsHitWithToolProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldCross",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/gold_cross.json",
+          "src/main/resources/assets/holy_crusade/items/gold_cross.json",
+          "src/main/java/net/mcreator/holycrusade/item/GoldCrossItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HolyWaterPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/HolyWaterPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "HolyWater",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "holy_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/holy_water.json",
+          "src/main/resources/assets/holy_crusade/items/holy_water.json",
+          "src/main/java/net/mcreator/holycrusade/item/HolyWaterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SacredBookItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_book_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/SacredBookItemItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/sacred_book_item.json",
+          "src/main/resources/assets/holy_crusade/items/sacred_book_item.json"
+        ]
+      }
+    },
+    {
+      "name": "SacredBook",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_book",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "RosaryRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosary_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RosaryRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Rosary",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosary",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/rosary.json",
+          "src/main/java/net/mcreator/holycrusade/item/RosaryItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/rosary.json"
+        ]
+      }
+    },
+    {
+      "name": "ThornsCrown",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorns_crown",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/thorns_crown.json",
+          "src/main/resources/assets/holy_crusade/models/item/thorns_crown.json",
+          "src/main/java/net/mcreator/holycrusade/item/ThornsCrownItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThornsCrownBauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorns_crown_bauble",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SaintBlood",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/SaintBloodItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/saint_blood.json",
+          "src/main/resources/assets/holy_crusade/items/saint_blood.json"
+        ]
+      }
+    },
+    {
+      "name": "SaintBloodBauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_blood_bauble",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CandleOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candle_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/CandleOnTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Candle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/candle.json",
+          "src/main/resources/assets/holy_crusade/models/block/candle.json",
+          "src/main/resources/assets/holy_crusade/blockstates/candle.json",
+          "src/main/java/net/mcreator/holycrusade/block/CandleBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/candle.json",
+          "src/main/resources/assets/holy_crusade/items/candle.json"
+        ]
+      }
+    },
+    {
+      "name": "OldJarBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_jar_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/OldJarBlockDestroyedByPlayerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OldJar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_jar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_jar.json",
+          "src/main/resources/assets/holy_crusade/blockstates/old_jar.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldJarBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/old_jar.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_jar.json",
+          "src/main/resources/assets/holy_crusade/items/old_jar.json"
+        ]
+      }
+    },
+    {
+      "name": "AnphoraBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anphora_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/AnphoraBlockDestroyedByPlayerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Anphora",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anphora",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/anphora.json",
+          "src/main/resources/assets/holy_crusade/blockstates/anphora.json",
+          "src/main/resources/assets/holy_crusade/models/block/anphora.json",
+          "src/main/resources/assets/holy_crusade/models/item/anphora.json",
+          "src/main/java/net/mcreator/holycrusade/block/AnphoraBlock.java",
+          "src/main/resources/assets/holy_crusade/items/anphora.json"
+        ]
+      }
+    },
+    {
+      "name": "OldChestGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_chest_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/gui/OldChestGuiScreen.java",
+          "src/main/java/net/mcreator/holycrusade/world/inventory/OldChestGuiMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "OldChestOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_chest_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/OldChestOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OldChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/old_chest.json",
+          "src/main/resources/assets/holy_crusade/blockstates/old_chest.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldChestBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/old_chest.json",
+          "src/main/java/net/mcreator/holycrusade/block/entity/OldChestBlockEntity.java",
+          "src/main/resources/assets/holy_crusade/models/block/old_chest.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "OldKey",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/old_key.json",
+          "src/main/java/net/mcreator/holycrusade/item/OldKeyItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/old_key.json"
+        ]
+      }
+    },
+    {
+      "name": "PortablePortalRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_portal_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/PortablePortalRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PortablePortal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portable_portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/portable_portal.json",
+          "src/main/java/net/mcreator/holycrusade/item/PortablePortalItem.java",
+          "src/main/resources/assets/holy_crusade/items/portable_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "TridentRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trident_rightclicked",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/TridentRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Trident",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trident",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/TridentItem.java",
+          "src/main/resources/assets/holy_crusade/models/item/trident.json",
+          "src/main/resources/assets/holy_crusade/items/trident.json"
+        ]
+      }
+    },
+    {
+      "name": "TridentProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trident_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/TridentProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Saint",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/painting_variant/saint.json"
+        ]
+      }
+    },
+    {
+      "name": "CreationOfAdam",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creation_of_adam",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/painting_variant/creation_of_adam.json"
+        ]
+      }
+    },
+    {
+      "name": "TheLasSupper",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_las_supper",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/painting_variant/the_las_supper.json"
+        ]
+      }
+    },
+    {
+      "name": "SaintShield",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/item/SaintShieldItem.java",
+          "src/main/resources/assets/holy_crusade/items/saint_shield.json",
+          "src/main/resources/assets/holy_crusade/models/item/saint_shield.json",
+          "src/main/resources/assets/holy_crusade/models/item/saint_shield_blocking.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_tile.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneTileBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_bricks.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_bricks.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_bricks.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneBricksBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_bricks.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tiles.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneTilesBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledOldStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_old_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/chiseled_old_stone.json",
+          "src/main/resources/assets/holy_crusade/models/block/chiseled_old_stone.json",
+          "src/main/java/net/mcreator/holycrusade/block/ChiseledOldStoneBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/chiseled_old_stone.json",
+          "src/main/resources/assets/holy_crusade/items/chiseled_old_stone.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/chiseled_old_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "OldstoneBrickStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldstone_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/oldstone_brick_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/block/oldstone_brick_stairs.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldstoneBrickStairsBlock.java",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/oldstone_brick_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/item/oldstone_brick_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/block/oldstone_brick_stairs_inner.json",
+          "src/main/resources/assets/holy_crusade/blockstates/oldstone_brick_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/block/oldstone_brick_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneBricksSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_bricks_slab_full.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_bricks_slab.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_bricks_slab.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneBricksSlabBlock.java",
+          "src/main/resources/assets/holy_crusade/items/old_stone_bricks_slab.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_bricks_slab.json",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_bricks_slab.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_bricks_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneBrickWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_brick_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_brick_wall_inventory.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_brick_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_brick_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_brick_wall_post.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_brick_wall.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneBrickWallBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_brick_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_brick_wall_side_tall.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_brick_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_stairs_outer.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_stairs_inner.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_tile_stairs.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_tile_stairs.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneTileStairsBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_tile_stairs.json",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_tile_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/old_stone_tile_slab.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_tile_slab.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_slab_full.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_tile_slab.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_slab.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneTileSlabBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_tile_slab.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "OldStoneTileWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_stone_tile_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_wall_inventory.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldStoneTileWallBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/old_stone_tile_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_wall_post.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_stone_tile_wall_side_tall.json",
+          "src/main/resources/assets/holy_crusade/models/item/old_stone_tile_wall.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_stone_tile_wall.json",
+          "src/main/resources/assets/holy_crusade/items/old_stone_tile_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedOldStoneTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_old_stone_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/cracked_old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/models/item/cracked_old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/items/cracked_old_stone_tile.json",
+          "src/main/java/net/mcreator/holycrusade/block/CrackedOldStoneTileBlock.java",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/cracked_old_stone_tile.json",
+          "src/main/resources/assets/holy_crusade/blockstates/cracked_old_stone_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "OldBowl",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_bowl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/old_bowl.json",
+          "src/main/resources/assets/holy_crusade/models/block/old_bowl.json",
+          "src/main/resources/assets/holy_crusade/blockstates/old_bowl.json",
+          "src/main/java/net/mcreator/holycrusade/block/OldBowlBlock.java",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/old_bowl.json",
+          "src/main/resources/assets/holy_crusade/items/old_bowl.json"
+        ]
+      }
+    },
+    {
+      "name": "IronWindow",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_window",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/block/IronWindowBlock.java",
+          "src/main/resources/assets/holy_crusade/items/iron_window.json",
+          "src/main/resources/assets/holy_crusade/models/item/iron_window.json",
+          "src/main/resources/assets/holy_crusade/models/block/iron_window_side.json",
+          "src/main/resources/assets/holy_crusade/models/block/iron_window_side_alt.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/iron_window.json",
+          "src/main/resources/assets/holy_crusade/blockstates/iron_window.json",
+          "src/main/resources/assets/holy_crusade/models/block/iron_window_noside_alt.json",
+          "src/main/resources/assets/holy_crusade/models/block/iron_window_post.json",
+          "src/main/resources/assets/holy_crusade/models/block/iron_window_noside.json"
+        ]
+      }
+    },
+    {
+      "name": "SkullPile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_pile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/blockstates/skull_pile.json",
+          "src/main/resources/assets/holy_crusade/items/skull_pile.json",
+          "src/main/resources/assets/holy_crusade/models/item/skull_pile.json",
+          "src/main/resources/assets/holy_crusade/models/block/skull_pile.json",
+          "src/main/java/net/mcreator/holycrusade/block/SkullPileBlock.java",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/skull_pile.json"
+        ]
+      }
+    },
+    {
+      "name": "SkullPileBlockDestroyedByPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_pile_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/SkullPileBlockDestroyedByPlayerProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TemplarSwordToolInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templar_sword_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/TemplarSwordToolInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Tornscrowmuse",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tornscrowmuse",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/TornscrowmuseProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SaintBloodBaubleWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saint_blood_bauble_while_bauble_is_equipped_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/SaintBloodBaubleWhileBaubleIsEquippedTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SacredBookWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sacred_book_while_bauble_is_equipped_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/SacredBookWhileBaubleIsEquippedTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "CommunionWaferPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "communion_wafer_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/CommunionWaferPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Blockshield",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockshield",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "originalblockedamount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/BlockshieldProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bones",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bones",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/renderer/BonesRenderer.java",
+          "src/main/resources/assets/holy_crusade/models/item/bones_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/entity/BonesEntity.java",
+          "src/main/resources/assets/holy_crusade/items/bones_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "PutridPriest",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "putrid_priest",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/renderer/PutridPriestRenderer.java",
+          "src/main/java/net/mcreator/holycrusade/entity/PutridPriestEntity.java",
+          "src/main/resources/assets/holy_crusade/models/item/putrid_priest_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/items/putrid_priest_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Rat",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/renderer/RatRenderer.java",
+          "src/main/resources/assets/holy_crusade/items/rat_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/models/item/rat_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/entity/RatEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedTemplar",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_templar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/CorruptedTemplarEntity.java",
+          "src/main/java/net/mcreator/holycrusade/client/renderer/CorruptedTemplarRenderer.java",
+          "src/main/resources/assets/holy_crusade/items/corrupted_templar_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/models/item/corrupted_templar_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "SmokePutridWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_putrid_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/SmokePutridWhileProjectileFlyingTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SmokePutrid",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_putrid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/SmokePutridEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Atke",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atke",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/AtkeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Rerturter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rerturter",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RerturterProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Retunrer2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "retunrer_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/Retunrer2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ArhamelRingRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arhamel_ring_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/ArhamelRingRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "ArhamelRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arhamel_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/arhamel_ring.json",
+          "src/main/java/net/mcreator/holycrusade/item/ArhamelRingItem.java",
+          "src/main/resources/assets/holy_crusade/items/arhamel_ring.json"
+        ]
+      }
+    },
+    {
+      "name": "BihrailRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bihrail_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/bihrail_ring.json",
+          "src/main/resources/assets/holy_crusade/items/bihrail_ring.json",
+          "src/main/java/net/mcreator/holycrusade/item/BihrailRingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AramielRing",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aramiel_ring",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/aramiel_ring.json",
+          "src/main/resources/assets/holy_crusade/items/aramiel_ring.json",
+          "src/main/java/net/mcreator/holycrusade/item/AramielRingItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/demon_stone_bricks.json",
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_bricks.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneBricksBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_bricks.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_bricks.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_bricks.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_tiles.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneTilesBlock.java",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/items/demon_stone_tiles.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "ChiseledDemonStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_demon_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/blockstates/chiseled_demon_stone.json",
+          "src/main/java/net/mcreator/holycrusade/block/ChiseledDemonStoneBlock.java",
+          "src/main/resources/assets/holy_crusade/models/item/chiseled_demon_stone.json",
+          "src/main/resources/assets/holy_crusade/items/chiseled_demon_stone.json",
+          "src/main/resources/assets/holy_crusade/models/block/chiseled_demon_stone.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/chiseled_demon_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneSigil",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_sigil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_sigil.json",
+          "src/main/resources/assets/holy_crusade/items/demon_stone_sigil.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneSigilBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_sigil.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_sigil.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_sigil.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneSigilEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_sigil_entity_walks_on_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/DemonStoneSigilEntityWalksOnTheBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "DemonicJar",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_jar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/block/DemonicJarBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/demonic_jar.json",
+          "src/main/resources/assets/holy_crusade/items/demonic_jar.json",
+          "src/main/resources/assets/holy_crusade/models/block/demonic_jar.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demonic_jar.json",
+          "src/main/resources/assets/holy_crusade/models/item/demonic_jar.json"
+        ]
+      }
+    },
+    {
+      "name": "Vercrus",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vercrus",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/VercrusProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/renderer/DemonRenderer.java",
+          "src/main/resources/assets/holy_crusade/items/demon_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/entity/DemonEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_stairs_inner.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_stairs_outer.json",
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_stairs.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_stairs.json",
+          "src/main/resources/assets/holy_crusade/items/demon_stone_stairs.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneStairsBlock.java",
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneSab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_sab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_sab.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_sab_top.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_sab.json",
+          "src/main/resources/assets/holy_crusade/items/demon_stone_sab.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_sab_full.json",
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_sab.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneSabBlock.java",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_sab.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonStoneWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_stone_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/demon_stone_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_wall.json",
+          "src/main/resources/assets/holy_crusade/blockstates/demon_stone_wall.json",
+          "src/main/java/net/mcreator/holycrusade/block/DemonStoneWallBlock.java",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_wall_inventory.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_stone_wall.json",
+          "src/main/resources/assets/holy_crusade/items/demon_stone_wall.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_wall_side_tall.json",
+          "src/main/resources/assets/holy_crusade/models/block/demon_stone_wall_post.json"
+        ]
+      }
+    },
+    {
+      "name": "Church",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "church",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/worldgen/structure_set/church.json",
+          "src/main/resources/data/holy_crusade/worldgen/template_pool/church.json",
+          "src/main/resources/data/holy_crusade/worldgen/structure/church.json"
+        ]
+      }
+    },
+    {
+      "name": "DemonOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/DemonOnEntityTickUpdateProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Use",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/UseEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RosaryPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosary_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RosaryPlayerFinishesUsingItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RosaryCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosary_can_use_ranged_item",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RosaryCanUseRangedItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Elpepee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elpepee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/ElpepeeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon0",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/models/item/demon_0_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/items/demon_0_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/client/renderer/Demon0Renderer.java",
+          "src/main/java/net/mcreator/holycrusade/entity/Demon0Entity.java"
+        ]
+      }
+    },
+    {
+      "name": "Coin",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/loot_table/blocks/coin.json",
+          "src/main/resources/assets/holy_crusade/blockstates/coin.json",
+          "src/main/resources/assets/holy_crusade/models/item/coin.json",
+          "src/main/resources/assets/holy_crusade/items/coin.json",
+          "src/main/resources/assets/holy_crusade/models/block/coin.json",
+          "src/main/java/net/mcreator/holycrusade/block/CoinBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Rcoins",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcoins",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rcoins.json",
+          "src/main/resources/data/holy_crusade/advancement/recipes/rcoins.json"
+        ]
+      }
+    },
+    {
+      "name": "Capin2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capin_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/advancement/recipes/capin_2.json",
+          "src/main/resources/data/holy_crusade/recipe/capin_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rold",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rold",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rold.json"
+        ]
+      }
+    },
+    {
+      "name": "Rold1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rold_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rold_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Rold2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rold_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rold_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Rbrick",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbrick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rbrick.json"
+        ]
+      }
+    },
+    {
+      "name": "UseWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/UseWhileProjectileFlyingTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ray",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/RayEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RayWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RayWhileProjectileFlyingTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RayProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ray_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RayProjectileHitsBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "SmokePutridProjectileHitsLivingEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smoke_putrid_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/SmokePutridProjectileHitsLivingEntityProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RatPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rat_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RatPlayerCollidesWithThisEntityProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Old5",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/old_5.json"
+        ]
+      }
+    },
+    {
+      "name": "Old6",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/old_6.json"
+        ]
+      }
+    },
+    {
+      "name": "Ol7",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ol_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/ol_7.json"
+        ]
+      }
+    },
+    {
+      "name": "Rol4",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rol_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/rol_4.json"
+        ]
+      }
+    },
+    {
+      "name": "CorruptedTemplarEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupted_templar_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/CorruptedTemplarEntityDiesProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Loots",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loots",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/LootsProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Loots2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loots_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/Loots2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "OldKeyRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_key_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/OldKeyRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ventna",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ventna",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/recipe/ventna.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldCrossRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_cross_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/GoldCrossRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Hurtaudio",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hurtaudio",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/HurtaudioProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Voice",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voice",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/VoiceProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/EeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon2",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/Demon2Entity.java",
+          "src/main/resources/assets/holy_crusade/items/demon_2_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/models/item/demon_2_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/client/renderer/Demon2Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon3",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/Demon3Entity.java",
+          "src/main/resources/assets/holy_crusade/models/item/demon_3_spawn_egg.json",
+          "src/main/resources/assets/holy_crusade/items/demon_3_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/client/renderer/Demon3Renderer.java"
+        ]
+      }
+    },
+    {
+      "name": "FireEyeRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_eye_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/FireEyeRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FireEye",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_eye",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/holy_crusade/items/fire_eye.json",
+          "src/main/resources/assets/holy_crusade/models/item/fire_eye.json",
+          "src/main/java/net/mcreator/holycrusade/item/FireEyeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Lotdemon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lotdemon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/LotdemonProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Templeman",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "templeman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/entity/TemplemanEntity.java",
+          "src/main/resources/assets/holy_crusade/items/templeman_spawn_egg.json",
+          "src/main/java/net/mcreator/holycrusade/client/renderer/TemplemanRenderer.java",
+          "src/main/resources/assets/holy_crusade/models/item/templeman_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Eeeee",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eeeee",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/EeeeeProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Temple",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/holy_crusade/worldgen/structure/temple.json",
+          "src/main/resources/data/holy_crusade/worldgen/structure_set/temple.json",
+          "src/main/resources/data/holy_crusade/worldgen/template_pool/temple.json"
+        ]
+      }
+    },
+    {
+      "name": "FireeyeProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireeye_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/client/renderer/FireeyeProjectileRenderer.java",
+          "src/main/java/net/mcreator/holycrusade/entity/FireeyeProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "DemonPlaybackCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_playback_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/DemonPlaybackConditionProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Atakee2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atakee_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/Atakee2Procedure.java"
+        ]
+      }
+    },
+    {
+      "name": "TridentProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trident_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/TridentProjectileWhileProjectileFlyingTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ingrud",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingrud",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/IngrudProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Ringd",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ringd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/RingdProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon0OnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_0_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/Demon0OnInitialEntitySpawnProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Demon0OnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demon_0_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/holycrusade/procedures/Demon0OnEntityTickUpdateProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "respiracion_templario",
+      "files": [
+        "respirado"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "rayo",
+      "files": [
+        "clon"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "crus_ctivad",
+      "files": [
+        "impacto_magico_blast"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "atauqe_templari",
+      "files": [
+        "metalic_hit"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "atake_templari_1",
+      "files": [
+        "small_swos"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "energi",
+      "files": [
+        "energy"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "caliz",
+      "files": [
+        "curason"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "templari_hurt",
+      "files": [
+        "dd_3_again"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "templari_hurt2",
+      "files": [
+        "1stroman_uet_11"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "priet_jurt1",
+      "files": [
+        "inevrnto_hurt_dos1"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "priest_jurt2",
+      "files": [
+        "inevrnto_hurt1"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "inspectpriesttt_vois",
+      "files": [
+        "inevrnto_vois_1"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "prist_voiss",
+      "files": [
+        "invento_vois"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "ea",
+      "files": [
+        "white_rat_sound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "hurt_demon_chico",
+      "files": [
+        "hurt_demo_chico"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "damage_ojo",
+      "files": [
+        "dmage_ojo"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "hurt_demon_grande",
+      "files": [
+        "hurt_demon_grande"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "voz_ojo",
+      "files": [
+        "oz_ojo"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "risa1",
+      "files": [
+        "risa1"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    },
+    {
+      "name": "risa2",
+      "files": [
+        "risa2"
+      ],
+      "category": "voice",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:swords": [
+      "~TemplarSword@CUSTOM:TemplarSword"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~GoldCross@CUSTOM:GoldCross"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~DemonStoneWall@CUSTOM:DemonStoneWall",
+      "~DemonStoneSab@CUSTOM:DemonStoneSab",
+      "~DemonStoneStairs@CUSTOM:DemonStoneStairs",
+      "~DemonStoneSigil@CUSTOM:DemonStoneSigil",
+      "~ChiseledDemonStone@CUSTOM:ChiseledDemonStone",
+      "~DemonStoneTiles@CUSTOM:DemonStoneTiles",
+      "~DemonStoneBricks@CUSTOM:DemonStoneBricks",
+      "~SkullPile@CUSTOM:SkullPile",
+      "~IronWindow@CUSTOM:IronWindow",
+      "~OldBowl@CUSTOM:OldBowl",
+      "~CrackedOldStoneTile@CUSTOM:CrackedOldStoneTile",
+      "~OldStoneTileWall@CUSTOM:OldStoneTileWall",
+      "~OldStoneTileSlab@CUSTOM:OldStoneTileSlab",
+      "~OldStoneTileStairs@CUSTOM:OldStoneTileStairs",
+      "~OldStoneBrickWall@CUSTOM:OldStoneBrickWall",
+      "~OldStoneBricksSlab@CUSTOM:OldStoneBricksSlab",
+      "~OldstoneBrickStairs@CUSTOM:OldstoneBrickStairs",
+      "~ChiseledOldStone@CUSTOM:ChiseledOldStone",
+      "~OldStoneTiles@CUSTOM:OldStoneTiles",
+      "~OldStoneBricks@CUSTOM:OldStoneBricks",
+      "~OldStoneTile@CUSTOM:OldStoneTile",
+      "~Anphora@CUSTOM:Anphora"
+    ],
+    "PAINTING_VARIANTS:minecraft:placeable": [
+      "~TheLasSupper@CUSTOM:TheLasSupper",
+      "~CreationOfAdam@CUSTOM:CreationOfAdam",
+      "~Saint@CUSTOM:Saint"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~SkullPile@CUSTOM:SkullPile",
+      "~OldBowl@CUSTOM:OldBowl",
+      "~CrackedOldStoneTile@CUSTOM:CrackedOldStoneTile",
+      "~OldStoneTileWall@CUSTOM:OldStoneTileWall",
+      "~OldStoneTileSlab@CUSTOM:OldStoneTileSlab",
+      "~OldStoneTileStairs@CUSTOM:OldStoneTileStairs",
+      "~OldStoneBrickWall@CUSTOM:OldStoneBrickWall",
+      "~OldStoneBricksSlab@CUSTOM:OldStoneBricksSlab",
+      "~OldstoneBrickStairs@CUSTOM:OldstoneBrickStairs",
+      "~ChiseledOldStone@CUSTOM:ChiseledOldStone",
+      "~OldStoneTiles@CUSTOM:OldStoneTiles",
+      "~OldStoneBricks@CUSTOM:OldStoneBricks",
+      "~OldStoneTile@CUSTOM:OldStoneTile"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~DemonStoneStairs@CUSTOM:DemonStoneStairs",
+      "~OldStoneTileStairs@CUSTOM:OldStoneTileStairs",
+      "~OldstoneBrickStairs@CUSTOM:OldstoneBrickStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~DemonStoneSab@CUSTOM:DemonStoneSab",
+      "~OldStoneTileSlab@CUSTOM:OldStoneTileSlab",
+      "~OldStoneBricksSlab@CUSTOM:OldStoneBricksSlab"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~DemonStoneWall@CUSTOM:DemonStoneWall",
+      "~OldStoneTileWall@CUSTOM:OldStoneTileWall",
+      "~OldStoneBrickWall@CUSTOM:OldStoneBrickWall"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~DemonStoneWall@CUSTOM:DemonStoneWall",
+      "~DemonStoneSab@CUSTOM:DemonStoneSab",
+      "~DemonStoneStairs@CUSTOM:DemonStoneStairs",
+      "~DemonStoneSigil@CUSTOM:DemonStoneSigil",
+      "~ChiseledDemonStone@CUSTOM:ChiseledDemonStone",
+      "~DemonStoneTiles@CUSTOM:DemonStoneTiles",
+      "~DemonStoneBricks@CUSTOM:DemonStoneBricks",
+      "~IronWindow@CUSTOM:IronWindow"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~CorruptedTemplar@CUSTOM:CorruptedTemplar",
+      "~PutridPriest@CUSTOM:PutridPriest",
+      "~Bones@CUSTOM:Bones"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:HolyCrusade": [
+      "CrackedOldStoneTile",
+      "OldStoneTile",
+      "OldStoneTileStairs",
+      "OldStoneTileSlab",
+      "OldStoneTileWall",
+      "OldStoneTiles",
+      "OldStoneBricks",
+      "OldstoneBrickStairs",
+      "OldStoneBricksSlab",
+      "OldStoneBrickWall",
+      "ChiseledOldStone",
+      "SkullPile",
+      "IronWindow",
+      "Candle",
+      "Coin",
+      "OldBowl",
+      "OldJar",
+      "Anphora",
+      "OldChest",
+      "OldKey",
+      "VeracruxFragment",
+      "CommunionWafer",
+      "Wine",
+      "HolyWater",
+      "TemplarSword",
+      "SaintShield",
+      "ChaliceOfChrist",
+      "GoldCross",
+      "Rosary",
+      "SacredBookItem",
+      "ThornsCrown",
+      "SaintBlood",
+      "Rat",
+      "Bones",
+      "PutridPriest",
+      "CorruptedTemplar",
+      "DemonStoneTiles",
+      "DemonStoneStairs",
+      "DemonStoneSab",
+      "DemonStoneWall",
+      "DemonStoneBricks",
+      "ChiseledDemonStone",
+      "DemonStoneSigil",
+      "DemonicJar",
+      "HellPepper",
+      "FireEye",
+      "Trident",
+      "PortablePortal",
+      "ArhamelRing",
+      "BihrailRing",
+      "AramielRing",
+      "Demon0",
+      "Demon2",
+      "Demon3"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item_group.holy_crusade.holy_crusade": "Holy Crusade",
+      "item.holy_crusade.veracrux_fragment": "Veracrux Fragment",
+      "item.holy_crusade.wine": "Wine",
+      "item.holy_crusade.communion_wafer": "Communion Wafer",
+      "item.holy_crusade.templar_sword": "Templar Sword",
+      "item.holy_crusade.hell_pepper": "Hell´s Pepper",
+      "item.holy_crusade.chalice_of_christ": "Chalice Of Christ",
+      "item.holy_crusade.gold_cross": "Gold Cross",
+      "item.holy_crusade.holy_water": "Holy Water",
+      "item.holy_crusade.sacred_book_item": "Sacred Book ",
+      "item.holy_crusade.rosary": "Rosary",
+      "item.holy_crusade.thorns_crown": "Thorn´s Crown",
+      "item.holy_crusade.saint_blood": "Saint Blood",
+      "item.holy_crusade.candle": "Candle",
+      "item.holy_crusade.old_jar": "Old Jar",
+      "item.holy_crusade.anphora": "Anphora",
+      "item.holy_crusade.old_chest": "Old Chest",
+      "item.holy_crusade.old_key": "Old Key",
+      "item.holy_crusade.portable_portal": "Portable Portal",
+      "item.holy_crusade.trident": "Trident",
+      "painting.holy_crusade.saint.title": "Saint",
+      "painting.holy_crusade.saint.author": "Fonzeko",
+      "painting.holy_crusade.creation_of_adam.author": "Michelangelo",
+      "painting.holy_crusade.creation_of_adam.title": "Creation Of Adam",
+      "painting.holy_crusade.the_las_supper.title": "The Last Supper",
+      "painting.holy_crusade.the_las_supper.author": "Leonardo Da Vinci",
+      "item.holy_crusade.saint_shield": "Saint Shield",
+      "item.holy_crusade.old_stone_tile": "Old Stone Tile",
+      "item.holy_crusade.old_stone_bricks": "Old Stone Bricks",
+      "item.holy_crusade.old_stone_tiles": "Old Stone Tiles",
+      "item.holy_crusade.chiseled_old_stone": "Chiseled Old Stone ",
+      "item.holy_crusade.oldstone_brick_stairs": "Old Stone Brick Stairs",
+      "item.holy_crusade.old_stone_bricks_slab": "Old Stone Bricks Slab",
+      "item.holy_crusade.old_stone_brick_wall": "Old Stone Bricks Wall",
+      "item.holy_crusade.old_stone_tile_stairs": "Old Stone Tile Stairs",
+      "item.holy_crusade.old_stone_tile_slab": "Old Stone Tile Slab",
+      "item.holy_crusade.old_stone_tile_wall": "Old Stone Tile Wall",
+      "item.holy_crusade.cracked_old_stone_tile": "Cracked Old Stone Tile",
+      "item.holy_crusade.old_bowl": "Old Bowl",
+      "item.holy_crusade.iron_window": "Iron Window",
+      "item.holy_crusade.skull_pile": "Skull Pile",
+      "item.holy_crusade.holy_water.description_0": "Purifies Bad effects turning them of good effects when drinked",
+      "item.holy_crusade.templar_sword.description_0": "Has Smite III",
+      "item.holy_crusade.saint_blood.description_0": "Grants Strength, but if the players health is less than half, switches to regeneration when equipped",
+      "item.holy_crusade.communion_wafer.description_0": "Clears all potion effects when ate",
+      "item.holy_crusade.wine.description_0": "Grants fire resistance when drinked",
+      "item.holy_crusade.chalice_of_christ.description_0": "Grants Absortion V",
+      "item.holy_crusade.sacred_book_item.description_0": "Grants Resistance I when equipped",
+      "item.holy_crusade.thorns_crown.description_0": "When equipped and the player is hurt distributes the damage between nearby mobs. Then get Cooldown",
+      "item.holy_crusade.bones_spawn_egg": "Bones Spawn Egg",
+      "entity.holy_crusade.bones": "Bones",
+      "entity.holy_crusade.putrid_priest": "Putrid Priest",
+      "item.holy_crusade.putrid_priest_spawn_egg": "Putrid Priest Spawn Egg",
+      "item.holy_crusade.rat_spawn_egg": "Rat Spawn Egg",
+      "entity.holy_crusade.rat": "Rat",
+      "entity.holy_crusade.corrupted_templar": "Corrupted Templar",
+      "item.holy_crusade.corrupted_templar_spawn_egg": "Corrupted Templar Spawn Egg",
+      "item.holy_crusade.arhamel_ring": "Arhamel Ring",
+      "item.holy_crusade.bihrail_ring": "Bihrail Ring",
+      "item.holy_crusade.aramiel_ring": "Aramiel Ring",
+      "item.holy_crusade.demon_stone_bricks": "Demon Stone Bricks",
+      "item.holy_crusade.demon_stone_tiles": "Demon Stone Tiles",
+      "item.holy_crusade.chiseled_demon_stone": "Chiseled Demon Stone ",
+      "item.holy_crusade.demon_stone_sigil": "Demon Stone Sigil",
+      "item.holy_crusade.demonic_jar": "Demonic Jar",
+      "entity.holy_crusade.demon": "Demon",
+      "item.holy_crusade.demon_spawn_egg": "Demon Spawn Egg",
+      "item.holy_crusade.demon_stone_stairs": "Demon Stone Stairs",
+      "item.holy_crusade.demon_stone_sab": "Demon Stone Slab",
+      "item.holy_crusade.demon_stone_wall": "Demon Stone Wal",
+      "item.holy_crusade.demon_0_spawn_egg": "Demongus Spawn Egg",
+      "entity.holy_crusade.demon_0": "Demongus",
+      "item.holy_crusade.coin": "Coin",
+      "item.holy_crusade.veracrux_fragment.description_0": "Soon...",
+      "item.holy_crusade.gold_cross.description_0": "Stunts All nearby Undeads",
+      "subtitles.respiracion_templario": "",
+      "subtitles.rayo": "",
+      "subtitles.crus_ctivad": "",
+      "subtitles.atauqe_templari": "",
+      "subtitles.atake_templari_1": "",
+      "subtitles.energi": "",
+      "subtitles.caliz": "",
+      "subtitles.templari_hurt": "",
+      "subtitles.templari_hurt2": "",
+      "subtitles.priet_jurt1": "",
+      "subtitles.priest_jurt2": "",
+      "subtitles.inspectpriesttt_vois": "",
+      "subtitles.prist_voiss": "",
+      "subtitles.ea": "",
+      "item.holy_crusade.portable_portal.description_0": "Use it to scape the Nether in emergency case",
+      "entity.holy_crusade.demon_2": "Impkeek",
+      "item.holy_crusade.demon_2_spawn_egg": "Impkeek Spawn Egg",
+      "item.holy_crusade.demon_3_spawn_egg": "Demonic Eye Spawn Egg",
+      "entity.holy_crusade.demon_3": "Demonic Eye",
+      "item.holy_crusade.fire_eye": "Fire Eye",
+      "item.holy_crusade.hell_pepper.description_0": "Grants Speed II",
+      "item.holy_crusade.templeman_spawn_egg": "Demon Spawn Egg",
+      "entity.holy_crusade.templeman": "Demon",
+      "block.holy_crusade.candle": "Candle",
+      "block.holy_crusade.old_jar": "Old Jar",
+      "block.holy_crusade.anphora": "Anphora",
+      "block.holy_crusade.old_chest": "Old Chest",
+      "block.holy_crusade.old_stone_tile": "Old Stone Tile",
+      "block.holy_crusade.old_stone_bricks": "Old Stone Bricks",
+      "block.holy_crusade.old_stone_tiles": "Old Stone Tiles",
+      "block.holy_crusade.chiseled_old_stone": "Chiseled Old Stone ",
+      "block.holy_crusade.oldstone_brick_stairs": "Old Stone Brick Stairs",
+      "block.holy_crusade.old_stone_bricks_slab": "Old Stone Bricks Slab",
+      "block.holy_crusade.old_stone_brick_wall": "Old Stone Bricks Wall",
+      "block.holy_crusade.old_stone_tile_stairs": "Old Stone Tile Stairs",
+      "block.holy_crusade.old_stone_tile_slab": "Old Stone Tile Slab",
+      "block.holy_crusade.old_stone_tile_wall": "Old Stone Tile Wall",
+      "block.holy_crusade.cracked_old_stone_tile": "Cracked Old Stone Tile",
+      "block.holy_crusade.old_bowl": "Old Bowl",
+      "block.holy_crusade.iron_window": "Iron Window",
+      "block.holy_crusade.skull_pile": "Skull Pile",
+      "block.holy_crusade.demon_stone_bricks": "Demon Stone Bricks",
+      "block.holy_crusade.demon_stone_tiles": "Demon Stone Tiles",
+      "block.holy_crusade.chiseled_demon_stone": "Chiseled Demon Stone ",
+      "block.holy_crusade.demon_stone_sigil": "Demon Stone Sigil",
+      "block.holy_crusade.demonic_jar": "Demonic Jar",
+      "block.holy_crusade.demon_stone_stairs": "Demon Stone Stairs",
+      "block.holy_crusade.demon_stone_sab": "Demon Stone Slab",
+      "block.holy_crusade.demon_stone_wall": "Demon Stone Wal",
+      "block.holy_crusade.coin": "Coin",
+      "subtitles.hurt_demon_chico": "",
+      "subtitles.damage_ojo": "",
+      "subtitles.hurt_demon_grande": "",
+      "subtitles.voz_ojo": "",
+      "subtitles.risa1": "",
+      "subtitles.risa2": "",
+      "item.holy_crusade.bihrail_ring.description_0": "Summons a Demonic Eye",
+      "item.holy_crusade.arhamel_ring.description_0": "Summons a Impkeek",
+      "item.holy_crusade.aramiel_ring.description_0": "Summons a Demongus"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModCuriosCompat.java",
+      "src/main/resources/data/curios/tags/item/body.json",
+      "src/main/resources/data/holy_crusade/curios/entities/slots.json",
+      "src/main/resources/data/holy_crusade/curios/slots/head.json",
+      "src/main/resources/data/curios/tags/item/head.json",
+      "src/main/resources/data/holy_crusade/curios/slots/body.json",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModMenus.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModScreens.java",
+      "src/main/java/net/mcreator/holycrusade/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModBlocks.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModBlockEntities.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModItems.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModEntities.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModEntityRenderers.java",
+      "src/main/java/net/mcreator/holycrusade/HolyCrusadeMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModSounds.java",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModModels.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/holy_crusade/sounds.json",
+      "src/main/java/net/mcreator/holycrusade/init/HolyCrusadeModTabs.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "holy_crusade",
+    "modName": "Holy_Crusade",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.holycrusade"
+  },
+  "mcreatorVersion": 202600230420
+}
