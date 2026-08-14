@@ -1,0 +1,8 @@
+{
+  "parent": "holy_crusade:custom/jarrita2",
+  "textures": {
+    "all": "holy_crusade:block/jared",
+    "particle": "holy_crusade:block/jared",
+    "0": "holy_crusade:block/jared"
+  }
+}

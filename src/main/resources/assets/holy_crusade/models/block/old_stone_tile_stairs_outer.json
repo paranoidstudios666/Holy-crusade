@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "holy_crusade:block/tilee",
+    "bottom": "holy_crusade:block/tilee",
+    "top": "holy_crusade:block/tilee",
+    "side": "holy_crusade:block/tilee"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "holy_crusade:block/tilee",
+    "particle": "holy_crusade:block/tilee"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "holy_crusade:custom/plato_gondo",
+  "textures": {
+    "all": "holy_crusade:block/pisobalsossa",
+    "particle": "holy_crusade:block/pisobalsossa",
+    "1": "holy_crusade:block/vasija",
+    "2": "holy_crusade:block/eeee"
+  }
+}

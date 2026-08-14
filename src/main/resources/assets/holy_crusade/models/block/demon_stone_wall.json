@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "holy_crusade:block/femon_tie",
+    "particle": "holy_crusade:block/femon_tie"
+  }
+}

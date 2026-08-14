@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "holy_crusade:block/big_brikcsss",
+    "bottom": "holy_crusade:block/big_brikcsss",
+    "top": "holy_crusade:block/big_brikcsss",
+    "side": "holy_crusade:block/big_brikcsss"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "holy_crusade:block/reja",
+    "particle": "holy_crusade:block/reja"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "holy_crusade:block/big_brikcsss",
+    "particle": "holy_crusade:block/big_brikcsss"
+  }
+}

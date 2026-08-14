@@ -1,0 +1,9 @@
+{
+  "parent": "holy_crusade:custom/vela",
+  "textures": {
+    "all": "holy_crusade:block/vela",
+    "particle": "holy_crusade:block/vela",
+    "0": "holy_crusade:block/vela",
+    "missing": "holy_crusade:block/vela"
+  }
+}

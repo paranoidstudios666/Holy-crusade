@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "holy_crusade:block/femon_tie",
+    "bottom": "holy_crusade:block/femon_tie",
+    "top": "holy_crusade:block/femon_tie",
+    "side": "holy_crusade:block/femon_tie"
+  }
+}

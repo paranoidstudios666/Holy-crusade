@@ -1,0 +1,9 @@
+{
+  "parent": "holy_crusade:custom/cofre",
+  "textures": {
+    "all": "minecraft:block/barrel_bottom",
+    "particle": "minecraft:block/barrel_bottom",
+    "0": "holy_crusade:block/cofreeieno",
+    "missing": "minecraft:block/barrel_bottom"
+  }
+}

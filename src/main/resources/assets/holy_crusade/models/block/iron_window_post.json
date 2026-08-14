@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_glass_pane_post",
+  "textures": {
+    "particle": "holy_crusade:block/reja",
+    "pane": "holy_crusade:block/reja",
+    "edge": "minecraft:block/black_wool"
+  }
+}
