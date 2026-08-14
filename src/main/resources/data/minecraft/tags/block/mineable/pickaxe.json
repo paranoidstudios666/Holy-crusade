@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "holy_crusade:demon_stone_bricks",
+    "holy_crusade:old_stone_tiles",
+    "holy_crusade:demon_stone_stairs",
+    "holy_crusade:iron_window",
+    "holy_crusade:chiseled_old_stone",
+    "holy_crusade:demon_stone_sab",
+    "holy_crusade:old_stone_tile_stairs",
+    "holy_crusade:anphora",
+    "holy_crusade:old_bowl",
+    "holy_crusade:chiseled_demon_stone",
+    "holy_crusade:cracked_old_stone_tile",
+    "holy_crusade:old_stone_tile_slab",
+    "holy_crusade:skull_pile",
+    "holy_crusade:old_stone_brick_wall",
+    "holy_crusade:old_stone_bricks_slab",
+    "holy_crusade:demon_stone_wall",
+    "holy_crusade:old_stone_tile_wall",
+    "holy_crusade:old_stone_bricks",
+    "holy_crusade:old_stone_tile",
+    "holy_crusade:demon_stone_sigil",
+    "holy_crusade:demon_stone_tiles",
+    "holy_crusade:oldstone_brick_stairs"
+  ]
+}

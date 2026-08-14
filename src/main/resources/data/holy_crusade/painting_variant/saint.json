@@ -1,0 +1,13 @@
+{
+  "asset_id": "holy_crusade:saint",
+  "height": 1,
+  "width": 1,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.holy_crusade.saint.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.holy_crusade.saint.author"
+  }
+}

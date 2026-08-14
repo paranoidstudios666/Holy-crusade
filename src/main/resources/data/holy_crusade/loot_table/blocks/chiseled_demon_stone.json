@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "holy_crusade:blocks/chiseled_demon_stone",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "holy_crusade:chiseled_demon_stone"
+        }
+      ]
+    }
+  ]
+}

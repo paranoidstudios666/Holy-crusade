@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "holy_crusade:demon_stone_stairs",
+    "holy_crusade:old_stone_tile_stairs",
+    "holy_crusade:oldstone_brick_stairs"
+  ]
+}

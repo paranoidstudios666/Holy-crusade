@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "holy_crusade:old_stone_tiles",
+    "holy_crusade:chiseled_old_stone",
+    "holy_crusade:old_stone_tile_stairs",
+    "holy_crusade:old_bowl",
+    "holy_crusade:cracked_old_stone_tile",
+    "holy_crusade:old_stone_tile_slab",
+    "holy_crusade:skull_pile",
+    "holy_crusade:old_stone_brick_wall",
+    "holy_crusade:old_stone_bricks_slab",
+    "holy_crusade:old_stone_tile_wall",
+    "holy_crusade:old_stone_bricks",
+    "holy_crusade:old_stone_tile",
+    "holy_crusade:oldstone_brick_stairs"
+  ]
+}

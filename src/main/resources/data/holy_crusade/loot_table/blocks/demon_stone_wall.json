@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "holy_crusade:blocks/demon_stone_wall",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "holy_crusade:demon_stone_wall"
+        }
+      ]
+    }
+  ]
+}

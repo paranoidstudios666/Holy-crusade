@@ -1,0 +1,13 @@
+{
+  "asset_id": "holy_crusade:creation_of_adam",
+  "height": 2,
+  "width": 4,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.holy_crusade.creation_of_adam.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.holy_crusade.creation_of_adam.author"
+  }
+}

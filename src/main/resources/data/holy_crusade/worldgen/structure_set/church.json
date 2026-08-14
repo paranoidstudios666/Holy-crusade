@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "holy_crusade:church",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 18,
+    "separation": 13,
+    "salt": 1559158881
+  }
+}

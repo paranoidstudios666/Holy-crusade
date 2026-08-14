@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": "holy_crusade:old_stone_bricks"
+  },
+  "result": {
+    "id": "holy_crusade:oldstone_brick_stairs",
+    "count": 4
+  }
+}
