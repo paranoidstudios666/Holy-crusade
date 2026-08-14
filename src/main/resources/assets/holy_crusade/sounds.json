@@ -1,0 +1,162 @@
+{
+  "respiracion_templario": {
+    "sounds": [
+      {
+        "name": "holy_crusade:respirado",
+        "stream": false
+      }
+    ]
+  },
+  "rayo": {
+    "sounds": [
+      {
+        "name": "holy_crusade:clon",
+        "stream": false
+      }
+    ]
+  },
+  "crus_ctivad": {
+    "sounds": [
+      {
+        "name": "holy_crusade:impacto_magico_blast",
+        "stream": false
+      }
+    ]
+  },
+  "atauqe_templari": {
+    "sounds": [
+      {
+        "name": "holy_crusade:metalic_hit",
+        "stream": false
+      }
+    ]
+  },
+  "atake_templari_1": {
+    "sounds": [
+      {
+        "name": "holy_crusade:small_swos",
+        "stream": false
+      }
+    ]
+  },
+  "energi": {
+    "sounds": [
+      {
+        "name": "holy_crusade:energy",
+        "stream": false
+      }
+    ]
+  },
+  "caliz": {
+    "sounds": [
+      {
+        "name": "holy_crusade:curason",
+        "stream": false
+      }
+    ]
+  },
+  "templari_hurt": {
+    "sounds": [
+      {
+        "name": "holy_crusade:dd_3_again",
+        "stream": false
+      }
+    ]
+  },
+  "templari_hurt2": {
+    "sounds": [
+      {
+        "name": "holy_crusade:1stroman_uet_11",
+        "stream": false
+      }
+    ]
+  },
+  "priet_jurt1": {
+    "sounds": [
+      {
+        "name": "holy_crusade:inevrnto_hurt_dos1",
+        "stream": false
+      }
+    ]
+  },
+  "priest_jurt2": {
+    "sounds": [
+      {
+        "name": "holy_crusade:inevrnto_hurt1",
+        "stream": false
+      }
+    ]
+  },
+  "inspectpriesttt_vois": {
+    "sounds": [
+      {
+        "name": "holy_crusade:inevrnto_vois_1",
+        "stream": false
+      }
+    ]
+  },
+  "prist_voiss": {
+    "sounds": [
+      {
+        "name": "holy_crusade:invento_vois",
+        "stream": false
+      }
+    ]
+  },
+  "ea": {
+    "sounds": [
+      {
+        "name": "holy_crusade:white_rat_sound",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_demon_chico": {
+    "sounds": [
+      {
+        "name": "holy_crusade:hurt_demo_chico",
+        "stream": false
+      }
+    ]
+  },
+  "damage_ojo": {
+    "sounds": [
+      {
+        "name": "holy_crusade:dmage_ojo",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_demon_grande": {
+    "sounds": [
+      {
+        "name": "holy_crusade:hurt_demon_grande",
+        "stream": false
+      }
+    ]
+  },
+  "voz_ojo": {
+    "sounds": [
+      {
+        "name": "holy_crusade:oz_ojo",
+        "stream": false
+      }
+    ]
+  },
+  "risa1": {
+    "sounds": [
+      {
+        "name": "holy_crusade:risa1",
+        "stream": false
+      }
+    ]
+  },
+  "risa2": {
+    "sounds": [
+      {
+        "name": "holy_crusade:risa2",
+        "stream": false
+      }
+    ]
+  }
+}
