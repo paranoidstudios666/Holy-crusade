@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "crossss",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Gold Cross",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": [
+        "Stunts All nearby Undeads"
+      ]
+    },
+    "creativeTabs": [
+      "CUSTOM:HolyCrusade"
+    ],
+    "efficiency": 0.0,
+    "attackSpeed": 4.0,
+    "enchantability": 1,
+    "damageVsEntity": 0.0,
+    "usageCount": 50,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": "GoldCrossRightclicked",
+    "onEntityHitWith": "GoldCrossLivingEntityIsHitWithTool"
+  }
+}

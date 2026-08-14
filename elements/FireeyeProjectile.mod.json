@@ -1,0 +1,19 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:FireEye",
+    "showParticles": false,
+    "actionSound": "entity.arrow.shoot",
+    "igniteFire": true,
+    "disableGravity": false,
+    "disableDiscarding": false,
+    "power": 0.8,
+    "damage": 3.0,
+    "knockback": 1,
+    "entityModel": "Modelojito",
+    "customModelTexture": "eyeye.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5
+  }
+}
