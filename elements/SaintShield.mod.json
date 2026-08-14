@@ -1,0 +1,36 @@
+{
+  "_fv": 89,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Shield",
+    "renderType": 1,
+    "blockingRenderType": 1,
+    "texture": "escudooooo",
+    "customModelName": "jesusssse:default",
+    "blockingModelName": "jesussss_blocke:default",
+    "guiTexture": "",
+    "name": "Saint Shield",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      "CUSTOM:HolyCrusade"
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 4.0,
+    "usageCount": 100,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "attributeModifiers": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

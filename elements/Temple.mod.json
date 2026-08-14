@@ -1,0 +1,40 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "base2",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 20,
+    "separation": 15,
+    "restrictionBiomes": [
+      "taiga",
+      "plains",
+      "mutated_plains",
+      "birch_forest",
+      "forest",
+      "badlands",
+      "desert",
+      "taiga_cold",
+      "snowy_tundra",
+      "jungle",
+      "mutated_savanna",
+      "mutated_birch_forest",
+      "roofed_forest",
+      "pale_garden",
+      "savanna_rock"
+    ],
+    "terrainAdaptation": "beard_box",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}
